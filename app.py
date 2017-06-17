@@ -32,6 +32,7 @@ def update_time():
 def stop_coffee():
     global timeVar
     timeVar = "OFF"
+    return timeVar
 
 
 def check_alarms():
